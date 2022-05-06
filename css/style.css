@@ -232,6 +232,7 @@ img {
     position: relative;
     width: 450px;
     height: 400px;
+    border-radius: 20px;
     background: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -244,6 +245,13 @@ img {
     0%{
         transform: scale(0.1);
     }
+}
+
+.login-form__input{
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
 }
 
 .login-form__close{
@@ -393,4 +401,22 @@ img {
 }
 .padding-bottom_10px {
     padding-bottom: 10px ;
+}
+.instagram{
+    background-size: 25px;
+    background-position:center ;
+    border-radius: 100%;
+    background-color: #30BCC9;
+}
+.google-app{
+    display: block;
+    width: 157px; 
+    height: 50px;
+    border-radius: 15px;
+}
+.apple-app{
+    display: block;
+    width: 157px;
+    height:50px ;
+    border-radius: 15px; 
 }
