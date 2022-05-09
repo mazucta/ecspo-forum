@@ -132,6 +132,7 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .first-screen a, .footer a {
     color: white;
