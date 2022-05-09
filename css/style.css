@@ -402,12 +402,7 @@ img {
 .padding-bottom_10px {
     padding-bottom: 10px ;
 }
-.instagram{
-    background-size: 25px;
-    background-position:center ;
-    border-radius: 100%;
-    background-color: #30BCC9;
-}
+
 .google-app{
     display: block;
     width: 157px; 
@@ -419,4 +414,16 @@ img {
     width: 157px;
     height:50px ;
     border-radius: 15px; 
+}
+.footer__social{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+.footer__news{
+    width: 255px;
+    margin-bottom: 25px;
+}
+.footer__title{
+    margin-bottom: 20px;
 }
